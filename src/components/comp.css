@@ -1,0 +1,105 @@
+.user_wrapper{
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.user_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user_details{
+    display: flex;
+    align-items: center;
+}
+.user_details h3{
+    margin-left: 10px;
+}
+.avatarr{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.user_status{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.online{
+    background-color: green;
+}
+.offline{
+    background-color: red;
+}
+.message_form{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 7fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+}
+.message_form input{
+    width: 40%;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.message_form .btn{
+    margin-top: 10;
+}
+.message_wrapper{
+    margin-top: 5px;
+    padding: 0px 5px;
+}
+.message_wrapper img{
+    width:100%;
+    border-radius: 5px;
+}
+.message_wrapper p{
+    padding: 10px;
+    display: inline-block;
+    max-width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+.message_wrapper small{
+display: inline-block;
+margin-top: 15px;
+opacity: 0.8;
+}
+.own {
+    text-align: right;    
+}
+.me {
+    background-color: blue;
+    color: white;
+}
+
+.freind{
+    background-color: rgb(184, 173, 173);
+}
+.selected_user{
+    background-color: rgba(100,100,100,0.5);
+}
+.truncket{
+    font-size: 13px;
+    white-space: nowrap;
+    width:90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.truncket strong{
+    margin-right: 10px;
+}
+.unread{
+    margin-left: 10px;
+    background-color: aqua;
+    color: antiquewhite;
+    padding: 2px 4px;
+    border-radius: 10px;
+}
